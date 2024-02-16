@@ -2,7 +2,7 @@
   "name": "email-made-easy",
   "description": "A simple npm package that takes your email sending job easier.",
   "main": "./dist/index.js",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "files": [
