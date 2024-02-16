@@ -2,7 +2,7 @@
   "name": "email-made-easy",
   "description": "A simple npm package that takes your email sending job easier.",
   "main": "./dist/index.js",
-  "version": "5.0.0",
+  "version": "1.0.0",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "files": [
@@ -25,9 +25,7 @@
     "preversion": "yarn lint",
     "version": "yarn run format && git add -A src",
     "postversion": "git push && git push --tags",
-    "publish:major": "npm version major",
-    "publish:minor": "npm version minor",
-    "publish:patch": "npm version patch"
+    "publish": "npm publish"
   },
   "devDependencies": {
     "@types/jest": "^29.4.0",
