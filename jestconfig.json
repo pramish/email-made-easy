@@ -1,0 +1,5 @@
+{
+  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(js|ts)$",
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+  "testPathIgnorePatterns": ["/node_modules/", "test.d.ts"]
+}
