@@ -18,7 +18,10 @@
     "prepublishOnly": "yarn test && yarn lint",
     "preversion": "yarn lint",
     "version": "yarn run format && git add -A src",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "publish:major": "npm version major",
+    "publish:minor": "npm version minor",
+    "publish:patch": "npm version patch"
   },
   "devDependencies": {
     "@types/jest": "^29.4.0",
